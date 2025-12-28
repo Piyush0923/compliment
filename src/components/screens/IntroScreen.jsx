@@ -3,8 +3,8 @@ import { Heart } from "lucide-react";
 
 export default function IntroScreen({ onNext }) {
     return (
-        <div className="flex items-center justify-center min-h-screen bg-black">
-            <div className="place-items-center max-w-3xl text-center px-4">
+        <div>
+            <div>
                 <motion.div
                     className="mb-8"
                     initial={{ scale: 0 }}
